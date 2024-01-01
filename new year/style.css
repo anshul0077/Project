@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+    height: 100%;
+    width: 100%;background-color: transparent;
+}
+.counter{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    z-index: 1000;
+}
+.kikli{
+  position: relative;
+  top:30%;
+  left: 42%;
+  overflow: hidden;
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+}
+.counter h4{ 
+ font-size: 100px;
+ font-weight: 600;
+ position: absolute;
+ top: 80%;
+ left: 15%;
+}
+video{
+    z-index: -1;
+}
+.text{
+    position: absolute;
+    color: transparent;
+    background:linear-gradient(to right,red ,blue,green);
+    -webkit-background-clip: text;
+
+    font-size: 40px;
+    animation: anima 2s cubic-bezier(0.175, 0.885, 0.32, 1.275)  infinite alternate;
+
+}
+.text>h2{
+    position: absolute;
+    left: 40%;
+    color: white;
+}
+.text>span{
+    position: absolute;
+    top: 105%;    left: 53%;
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: 800;
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.418);
+}
+@keyframes anima {
+    100%{
+        text-shadow: 0 0 60px rgba(0, 0, 255, 0.753);
+    }
+    50%{
+        text-shadow: 0 0 60px rgba(0, 128, 0, 0.884);
+    }
+ 
+    
+}
+
+@media (max-width:600px){
+.text{
+    left: 15%;
+    
+}
+    
+}

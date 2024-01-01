@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+   
+}
+.container{
+    height: 400px;
+    width: 350px;
+    background-color: white ;
+    border-radius: 10px;
+    position: relative;
+
+}
+img{
+    object-fit: cover;
+    object-position: top;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10%;
+}
+h5{
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    font-size: 30px;
+    color: red;
+}
+button{
+    position: absolute;
+    top: 68%;
+    left: 45%;
+    font-size: 20px;
+    margin-top: 13px;
+    border: none;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    padding: 10px;
+}
