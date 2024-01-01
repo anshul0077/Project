@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+ background: url(./wp5167435-hd-4k-art-wallpapers.jpg);
+
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 50px 100px 0 100px;
+ color: white;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    width: 100%;
+    font-weight: 100;
+
+
+
+}
+#nav h1{
+    font-size: 30px;
+
+}
+#nav h1:hover{
+    color: rgb(252, 99, 39);
+}
+.navpart2{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-size: 16px;
+    font-weight: 99;
+}
+.navpart2 h4:hover{
+    border-bottom: 2px solid lightseagreen;
+}
+.navpart2 button{
+height:50px;
+width: 100px;
+background-color: transparent;
+border: 1px solid white ;
+color: white;
+align-items: center;
+}
+#page1 .content h1{
+ font-size: 200px;
+ white-space: nowrap;
+}
+#page1 .content p{
+    font-size: 100px;
+  
+   }
+   #name {
+    display: flex;
+   }
+   .para h6{
+    font-size: 16px;
+   }
+  .para button{
+margin-top: 40px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color:darkviolet;
+    
+    
+   }
+   #page1 .content{
+    position: absolute;
+    top: 35%;
+   }
+   #page1 {
+    overflow: hidden;
+   }
+
+   #navlike{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+   
+    border-bottom: 1px solid rgb(89, 89, 209);
+   }
+#navlike .line{
+height: 20px;
+width: 300px;
+border-top: 3px solid white;
+line-height: 35px;
+
+
+}
+#navlike  h2{
+    font-size: 40px;
+}
+#navlike .line h5{
+ padding-left: 50%;
+font-size: 12px;
+    }
+    #navlike .line h5 span{
+        color: red;
+        font-size: 12px;
+    }
+    #page2 .secpara p{
+        padding-top: 10px;
+        font-size: 9px;
+        padding-right: 44%;
+    }
+      
+
+
+
+
+
+    .boxcntn{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 6%;
+    }
+#page2 .box1{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(70, 61, 178);
+    z-index: 100;
+}
+.box1>img{
+    border-radius: 800px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.box1 h2{
+font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+.box1 h3{
+    font-size: 30px;
+    padding: 15px;
+}
+.box1 span{
+    font-size: 17px;
+   color: red;
+   margin-left: -10px;
+}
+.box1 p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.box1 button{
+    text-align: center;
+    margin-left: 80px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(252, 66, 63);
+    border: none;
+margin-top: 10px;
+}
+
+
+
+
+
+
+#page2{
+    overflow: hidden;
+}
+#page3{
+    overflow: hidden;
+}
+
+
+#page2 .box2{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(70, 61, 178);
+    z-index: 100;
+}
+.box2>img{
+    border-radius: 800px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.box2 h2{
+font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+.box2 h3{
+    font-size: 30px;
+    padding: 15px;
+}
+.box2 span{
+    font-size: 17px;
+   color: red;
+   margin-left: -10px;
+}
+.box2 p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.box2 button{
+    text-align: center;
+    margin-left: 80px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(252, 66, 63);
+    border: none;
+margin-top: 10px;
+}
+
+
+
+
+
+
+#page2 .box3{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(70, 61, 178);
+    z-index: 100;
+}
+.box3>img{
+    border-radius: 800px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.box3 h2{
+font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+.box3 h3{
+    font-size: 30px;
+    padding: 15px;
+}
+.box3 span{
+    font-size: 17px;
+   color: red;
+   margin-left: -10px;
+}
+.box3 p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.box3 button{
+    text-align: center;
+    margin-left: 80px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(252, 66, 63);
+    border: none;
+margin-top: 10px;
+}
+
+#navlike h2:hover{
+    color: rgb(240, 0, 0);
+    transition: all ease-in-out 0.6s;
+}
+
+
+
+
+#page2{
+    height: 130vh;
+    width: 100%;
+    background:linear-gradient(rgb(14,15,59),rgb(14,15,69),rgb(15,23,86),rgb(26,29,96));
+    padding: 50px 100px;
+   
+}
+#page3{
+    height: 120vh;
+    width: 100%;
+    background-color:rgb(7,9,70);
+    padding: 50px 100px;
+   
+}
+#page3 .secpara{
+    padding-right: 40%;
+    font-size: 9px;
+    padding-top: 15px;
+}
+#page3 #mainbox{
+    height: 400px;
+    width: 70%;
+    background-color: rgb(36, 34, 117);
+    margin-top: 50px;
+    margin-left: 300px;
+    display: flex;
+
+}
+#page3  .image img{
+ height: 300px;
+ width: 500px;
+ margin-top: 100px;
+position: absolute;
+margin-left: 190px;
+border-right: 6px solid white;
+z-index: 99;
+
+}
+#page3 #mainbox .text {
+    display: flex;
+    margin-top: 50px;
+   gap: 190px;
+  padding-left: 430px;
+   background-color: rgb(46, 52, 138);
+   width: 100%;
+   height: 80px;
+   align-items: center;
+}
+.othertext{
+    position: absolute;
+    top: 290%;
+    left: 62%;
+    padding-right: 200px;
+}
+.othertext span{
+    color: red;
+}
+.othertext p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.othertext h3{
+    margin-top: 10px;
+    font-weight: 200;
+}
+.othertext button{
+    text-align: center;
+    
+    height: 35px;
+    width: 190px;
+    background-color: rgb(252, 66, 63);
+    border: none;
+margin-top: 20px;
+}
+.minibox{
+    height: 60px;
+    width: 80px;
+    background-color: rgb(37, 34, 139);
+    position: absolute;
+    left: 17%;
+    top: 298%;
+    border-left: 5px solid rgb(252, 66, 63);
+}
+
+.bottombar{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottombar .line{
+    width: 300px;
+    height: 30px;
+    border-bottom: 2px solid white;
+}
+.bottombar .line h4 i{
+   padding-left: 122px;
+  
+}
+.minibox i{
+    font-size: 30px;
+ top: 15px;
+ position: absolute;
+ left: 20%;
+}
+
+.rightarrow i{
+    font-size: 30px;
+ margin-top: 500px;
+
+  
+    
+}
+.leftarrow i{
+    font-size: 30px;
+    position: relative;
+    top: 60%;
+    
+}
+button i{
+    margin-top: 10px;
+    font-size: 24px;
+    align-items: center;
+    margin-left: 10px;
+   color: black;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 23px;
+}
+.icons i:hover{
+color: red;
+transition: all ease 0.5 ;
+}
+button:hover{
+    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+    transition: all ease 0.9 ;
+}
+.box1:hover{
+    border-bottom: 5px solid orangered;
+}
+.box2:hover{
+    border-bottom: 5px solid skyblue;
+}
+.box3:hover{
+    border-bottom: 5px solid yellow;
+}
+.box1:hover{
+transform: scale(1.1);    
+transition: all 1s ease-in-out;
+
+}
+.box2:hover{
+    transform: scale(1.1);    
+    transition: all 1s ease-in-out;
+    
+    }
+    .box3:hover{
+        transform: scale(1.1);    
+        transition: all 0.5s ease-in-out;
+        
+        }
