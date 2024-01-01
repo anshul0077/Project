@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    /* background-color: teal; */
+    position: relative;
+}
+.right{
+    height: 100%;
+    width: 60%;
+
+}
+.rtop{
+    height: 50%;
+    width: 100%;
+   
+    display: flex;
+}
+.rbottom{
+    height: 50%;
+    width: 100%;
+background: url(https://images.unsplash.com/photo-1552010099-5dc86fcfaa38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D);
+background-size:cover;
+background-position: center;
+}
+.rtl{
+    height: 100%;
+    width: 50%;
+    background: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+}
+.rtr{
+    height: 100%;
+    width: 50%;
+   background: url(https://images.unsplash.com/photo-1592187270271-9a4b84faa228?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D);
+   background-size: cover;
+   background-position: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 30px;
+}
+.nav i{
+    font-size: 24px;
+}
+.nav .navpart2 i{
+    color: royalblue;
+}
+.navpart2 a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navpart2 a:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.centertext a{
+   opacity: 0.7;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+
+}
+.centertext{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    padding: 0 80px;
+
+}
+.centertext h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.centertext p{
+    opacity: 0.6;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+@media (max-width:500px) {
+   
+   #main{
+    flex-direction: column;
+   }
+#main .left{
+    width: 100%;
+}
+#main .right{
+    width: 100%;
+}
+    
+}
